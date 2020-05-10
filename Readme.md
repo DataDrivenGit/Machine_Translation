@@ -18,4 +18,5 @@ A critical and apparent disadvantage of this fixed-length context vector design 
  the encoder works as similar to encoder-decoder model but the decoder behaves differently. Here the decoder’s hidden state is computed with a context vector, the previous output and the previous hidden state and also it has separate context vector c_i for each target word. These context vectors are computed as a weighted sum of activation states in forward and backward directions and alphas and these alphas denote how much attention is given by the input for the generation of output word.
 
  Sample output from model are shown in below image
- <img src="./img/sample_output.png">
+
+<img src="./img/sample_output.PNG">
